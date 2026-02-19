@@ -1,0 +1,11 @@
+{
+  "editorconfig": true,
+  "semi": false,
+  "singleQuote": true,
+
+  "tailwindStylesheet": "./src/styles/index.css",
+  "tailwindPreserveWhitespace": true,
+  "tailwindFunctions": ["cva", "tw"],
+
+  "plugins": ["prettier-plugin-tailwindcss"]
+}
