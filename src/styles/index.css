@@ -1,4 +1,5 @@
-@import "tailwindcss";
+@import './font-face.css';
+@import 'tailwindcss';
 
 :root {
   --background: oklch(1 0 0);
@@ -52,6 +53,10 @@
 }
 
 @theme {
+  --font-sans:
+    'Geist Variable', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
   --default-ring-width: 3px;
 
   --default-transition-duration: 225ms;
