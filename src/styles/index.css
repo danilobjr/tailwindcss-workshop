@@ -131,16 +131,22 @@
 
 @layer base {
   * {
-    @apply border-border outline-ring/50 [scrollbar-width:thin];
+    @apply border-border
+      outline-ring/50
+      [scrollbar-width:thin];
   }
 
   ::selection {
-    @apply bg-selection text-selection-foreground;
+    @apply bg-selection
+      text-selection-foreground;
   }
 
   html,
   body {
-    @apply h-dvh w-screen min-w-86 overflow-hidden;
+    @apply h-dvh
+      w-screen
+      min-w-86
+      overflow-hidden;
   }
 
   html {
@@ -149,7 +155,11 @@
   }
 
   body {
-    @apply overscroll-none bg-background text-foreground antialiased [font-synthesis:none];
+    @apply overscroll-none
+      bg-background
+      text-foreground
+      antialiased
+      [font-synthesis:none];
   }
 
   #app {
