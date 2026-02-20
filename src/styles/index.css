@@ -144,8 +144,8 @@
   }
 
   html {
-    @apply scroll-smooth;
-    font-size: 16px;
+    @apply scroll-smooth
+      text-[16px];
   }
 
   body {
@@ -159,7 +159,7 @@
 
   button:not(:disabled),
   [role='button']:not(:disabled) {
-    cursor: pointer;
+    @apply cursor-pointer;
   }
 
   svg.lucide {
