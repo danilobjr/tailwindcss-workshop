@@ -139,8 +139,7 @@
   }
 
   html,
-  body,
-  #app {
+  body {
     @apply h-dvh w-screen min-w-86 overflow-hidden;
   }
 
@@ -154,7 +153,8 @@
   }
 
   #app {
-    @apply block;
+    @apply h-[inherit]
+      [overflow:inherit];
   }
 
   button:not(:disabled),
