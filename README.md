@@ -1,6 +1,6 @@
 # TailwindCSS Workshop
 
-![Exercício 1 - Tela de Login](/docs/exercise-1-preview.jpg)
+![Exercício 1 - Tela de Login](/docs/banner.jpg)
 
 Este repositório contém exercícios e recursos do **Workshop de TailwindCSS** assim como dicas sobre Tailwind e CSS.
 
