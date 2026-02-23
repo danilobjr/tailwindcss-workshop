@@ -136,7 +136,7 @@ Tela de login.
 
 Link do [design no Figma](https://www.figma.com/design/Bid8m3nUkjiEBpdAtjHmrA/Tailwindcss-Workshop---Design?node-id=6-172&t=0mfGEMwhHjvxMxfO-1).
 
-![Exercício 1 - Tela de Login](/docs/exercise-1-preview.png)
+![Exercício 1 - Tela de Login](/docs/exercise-1-preview.jpg)
 
 #### Ícones
 
