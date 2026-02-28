@@ -241,10 +241,12 @@ function App() {
                 <svg
                   class={`
                     size-3
+                    scale-25
                     stroke-4
                     text-primary-foreground
                     opacity-0
-                    transition-opacity
+                    transition-all
+                    in-has-checked:scale-100
                     in-has-checked:opacity-100
                   `}
                   xmlns="http://www.w3.org/2000/svg"
