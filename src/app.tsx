@@ -116,10 +116,10 @@ function App() {
                   h-9
                   rounded-md
                   border
-                  border-border
+                  border-input-border
                   px-3
                   text-sm
-                  shadow-xs
+                  shadow-input
                   transition-all
                   outline-none
                   placeholder:text-placeholder
@@ -180,10 +180,10 @@ function App() {
                   h-9
                   rounded-md
                   border
-                  border-border
+                  border-input-border
                   px-3
                   text-sm
-                  shadow-xs
+                  shadow-input
                   transition-all
                   outline-none
                   placeholder:text-placeholder
@@ -215,9 +215,9 @@ function App() {
                   justify-center
                   rounded-xl
                   border
-                  border-border
+                  border-input-border
                   text-sm
-                  shadow-xs
+                  shadow-input
                   transition-all
                   outline-none
                   [corner-shape:squircle]
