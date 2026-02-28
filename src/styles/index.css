@@ -124,7 +124,7 @@
 
   --color-table: var(--table);
 
-  --default-ring-color: color-mix(in oklch, var(--color-ring), transparent);
+  --default-ring-color: color-mix(in oklch, var(--color-ring) 25%, transparent);
 
   --shadow-input: var(--shadow-xs);
 

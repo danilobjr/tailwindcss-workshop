@@ -128,7 +128,6 @@ function App() {
                   required:invalid:border-l-destructive
                   focus-visible:border-ring
                   focus-visible:ring
-                  focus-visible:ring-ring/25
                 `}
                 id="doc-number"
                 type="text"
@@ -192,8 +191,7 @@ function App() {
                   required:valid:border-l-primary
                   required:invalid:border-l-destructive
                   focus-visible:border-ring
-                  focus-visible:ring
-                  focus-visible:ring-ring/25`}
+                  focus-visible:ring`}
                 id="password"
                 type="password"
                 required
@@ -223,10 +221,8 @@ function App() {
                   transition-all
                   outline-none
                   [corner-shape:squircle]
-                  placeholder:text-placeholder
                   focus-within:border-ring
                   focus-within:ring
-                  focus-within:ring-ring/25
                   has-checked:border-primary
                   has-checked:bg-primary
                   has-checked:focus-within:ring-primary/25
