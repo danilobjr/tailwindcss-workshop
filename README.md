@@ -115,6 +115,8 @@ O projeto tem dois branches:
 
 - **main** - contém o código completo com os exercícios prontos.
 - **develop** - o código está no ponto para você iniciar os exercícios.
+- **exercise-1** - pronto para fazer o [exercício 1 - Tela de login](#exercício-1).
+- **exercise-1-bonus-checkbox** - pronto para fazer o [exercício 1 - BÔNUS - Checkbox customizado](#exercício-1---bônus).
 
 Então, antes de iniciar os exercícios, faça um checkout para o branch develop:
 
@@ -155,6 +157,12 @@ A manchete e a foto de uma notícia são exibidas no quadro esquerdo da tela de 
 - Manchete: Doação de repelentes a famílias no interior do Ceará.
 - Imagem: Arquivo _/public/img/exercise-1/news.png_.
 - Link da notícia: https://boanoticia.org.br/acao-beneficente-promove-doacao-de-repelentes-a-familias-no-interior-do-ceara/
+
+### Exercício 1 - BÔNUS
+
+Checkbox customizado.
+
+https://github.com/user-attachments/assets/b18a21c5-faa5-4133-9abd-0e9530aa2532
 
 ### Exercício 2
 
