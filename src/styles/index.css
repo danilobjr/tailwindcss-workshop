@@ -127,6 +127,8 @@
   --default-ring-color: color-mix(in oklch, var(--color-ring), transparent);
 
   --shadow-input: var(--shadow-xs);
+
+  --text-sm-field: 0.813rem;
 }
 
 @layer base {

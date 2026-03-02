@@ -103,7 +103,7 @@ function App() {
             >
               <label
                 class={`
-                  text-[.813rem]
+                  text-sm-field
                   leading-none
                   font-medium
                 `}
@@ -153,7 +153,7 @@ function App() {
               >
                 <label
                   class={`
-                    text-[.813rem]
+                    text-sm-field
                     leading-none
                     font-medium
                   `}
