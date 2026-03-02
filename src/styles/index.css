@@ -57,6 +57,7 @@
     'Geist Variable', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 
+  --default-ring-color: --alpha(var(--color-ring) / 25%);
   --default-ring-width: 3px;
 
   --default-transition-duration: 225ms;
@@ -123,8 +124,6 @@
   --color-sidebar-ring: var(--sidebar-ring);
 
   --color-table: var(--table);
-
-  --default-ring-color: --alpha(var(--color-ring) / 25%);
 
   --shadow-input: var(--shadow-xs);
 
