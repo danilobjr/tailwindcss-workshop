@@ -199,6 +199,82 @@ function App() {
                 required
               />
             </div>
+
+            <label
+              class={`
+                flex
+                cursor-pointer
+                items-center
+                gap-2
+              `}
+            >
+              <div
+                class={`
+                  flex
+                  aspect-square
+                  w-4
+                  items-center
+                  justify-center
+                  rounded-xl
+                  border
+                  border-border
+                  text-sm
+                  shadow-xs
+                  transition-all
+                  outline-none
+                  [corner-shape:squircle]
+                  placeholder:text-placeholder
+                  focus-within:border-ring
+                  focus-within:ring
+                  focus-within:ring-ring/25
+                  has-checked:border-primary
+                  has-checked:bg-primary
+                  has-checked:focus-within:ring-primary/25
+                `}
+              >
+                <input
+                  class={`
+                    pointer-events-none
+                    absolute
+                    aspect-square
+                    w-4 opacity-0
+                  `}
+                  type="checkbox"
+                  aria-labelledby="keep-connected"
+                />
+                <svg
+                  class={`
+                    size-3
+                    stroke-4
+                    text-primary-foreground
+                    opacity-0
+                    transition-opacity
+                    in-has-checked:opacity-100
+                  `}
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M20 6 9 17l-5-5" />
+                </svg>
+              </div>
+              <span
+                class={`
+                  text-sm-field
+                  leading-none
+                  font-medium
+                  select-none
+                `}
+                id="keep-connected"
+              >
+                Manter-me conectado
+              </span>
+            </label>
           </div>
 
           <div
