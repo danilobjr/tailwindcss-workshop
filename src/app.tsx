@@ -1,3 +1,5 @@
+import { Logo } from './components/logo/logo.ui'
+
 function App() {
   return (
     <div class="flex h-dvh" data-slot="layout">
@@ -15,9 +17,7 @@ function App() {
         `}
         data-slot="featured"
       >
-        <figure>
-          <img class="w-50 shrink-0" src="/img/logo.svg" alt="logo" />
-        </figure>
+        <Logo class="h-auto w-50 shrink-0" classText="hidden sm:block" />
 
         <a
           class={`
